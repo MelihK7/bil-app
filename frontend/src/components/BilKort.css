@@ -1,12 +1,31 @@
 .bil-kort {
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
   margin: 10px;
-  border-radius: 5px;
-  background-color: #f9f9f9;}
+  width: 300px;
+  cursor: pointer;
+}
 
-  .bil-kort h2 {
-    margin: 0;
-    font-size: 1.5em;
-    color: black;
-  }
+.bil-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bil-info {
+  padding: 12px;
+}
+
+.bil-info h2 {
+  margin: 0 0 8px 0;
+  font-size: 25px;
+  color: black;
+}
+
+.bil-info p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 18px;
+}
