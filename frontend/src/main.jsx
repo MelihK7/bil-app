@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BroswerRouter} from 'react-router-dom' // Import der gør router funktionaliteten muligt mellem pages
+import { BrowserRouter} from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 
@@ -9,9 +9,9 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-      <BroswerRouter>
+      <BrowserRouter>
         <App />
-      </BroswerRouter>
+      </BrowserRouter>
 
   </StrictMode>,
 )

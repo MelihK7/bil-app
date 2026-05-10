@@ -2,9 +2,10 @@
 import './App.css'
 import BilKort from './components/BilKort/BilKort'
 import { Routes, Route } from 'react-router-dom'
-import BilDetalje from './components/BilDetalje'
+import BilDetalje from './pages/BilDetalje/BilDetalje'
 
-import biler from './data/biler'
+import biler from './data/bilListe'
+
 
 function App() {
   return (
